@@ -13,6 +13,7 @@
 		DA92F502264DD53100F7AFF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA92F500264DD53100F7AFF4 /* Main.storyboard */; };
 		DA92F504264DD53100F7AFF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA92F503264DD53100F7AFF4 /* Assets.xcassets */; };
 		DA92F507264DD53100F7AFF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA92F505264DD53100F7AFF4 /* LaunchScreen.storyboard */; };
+		DA92F50F264DD63500F7AFF4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DA92F50E264DD63500F7AFF4 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DA92F503264DD53100F7AFF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA92F506264DD53100F7AFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA92F508264DD53100F7AFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA92F50E264DD63500F7AFF4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		DA92F4EE264DD53100F7AFF4 = {
 			isa = PBXGroup;
 			children = (
+				DA92F50E264DD63500F7AFF4 /* README.md */,
 				DA92F4F9264DD53100F7AFF4 /* CapitalCities */,
 				DA92F4F8264DD53100F7AFF4 /* Products */,
 			);
@@ -126,6 +129,7 @@
 			files = (
 				DA92F507264DD53100F7AFF4 /* LaunchScreen.storyboard in Resources */,
 				DA92F504264DD53100F7AFF4 /* Assets.xcassets in Resources */,
+				DA92F50F264DD63500F7AFF4 /* README.md in Resources */,
 				DA92F502264DD53100F7AFF4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
