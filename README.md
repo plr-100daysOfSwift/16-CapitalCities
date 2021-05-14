@@ -10,5 +10,5 @@
 2. <#Description#>
 3. <#Description#>
 
-[1]: https://www.hackingwithswift.com/100/swift/60
+[1]: https://www.hackingwithswift.com/100/60
 
