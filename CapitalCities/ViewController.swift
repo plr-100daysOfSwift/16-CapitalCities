@@ -7,6 +7,7 @@
 
 import UIKit
 import MapKit
+import Contacts
 
 class ViewController: UIViewController, MKMapViewDelegate {
 
@@ -24,6 +25,25 @@ class ViewController: UIViewController, MKMapViewDelegate {
 		let washington = Capital(title: "Washington", coordinate: CLLocationCoordinate2D(latitude: 38.895111, longitude: -77.036667), info: "Named after George himself.")
 
 		mapView.addAnnotations([london, oslo, paris, rome, washington])
+
+		let coords1 = CLLocationCoordinate2DMake(-37.814136, 144.964868)
+		let address1 = [
+			CNPostalAddressStreetKey: "310 Bourke St.",
+			CNPostalAddressPostalCodeKey: "3000",
+			CNPostalAddressCityKey: "Melbourne",
+			CNPostalAddressISOCountryCodeKey: "AU"
+		]
+		let place1 = MKPlacemark(coordinate: coords1, addressDictionary: address1)
+
+		let coords2 = CLLocationCoordinate2DMake(51.5083, -0.1384)
+		let address2 = CNMutablePostalAddress()
+		address2.street = "181 Piccadilly, St James's"
+		address2.postalCode =  "W1A 1ER"
+		address2.city = "London"
+		address2.isoCountryCode = "GB"
+		let place2 = MKPlacemark(coordinate: coords2, postalAddress: address2)
+
+		mapView.addAnnotations([place1, place2])
 	}
 
 	@objc func changeMapType() {
